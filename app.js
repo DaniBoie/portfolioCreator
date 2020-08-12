@@ -87,7 +87,7 @@ const question = () => {
 
 </html>`
 
-fs.writeFile('append.html', htmlPage, (err) => {console.log(err)})
+fs.writeFile('portfolioPage.html', htmlPage, (err) => {console.log(err)})
     })
     .catch(err => console.log(err))
 }
